@@ -9,6 +9,7 @@
 .footer {
   font-family: Poppins;
   background-color: #001a2ee5;
+  
 }
 .footer-col1-p1 {
   font-weight: 900;
@@ -17,12 +18,14 @@
   letter-spacing: 4px;
   margin-bottom: 8px;
   font-family: Poppins-SemiBold;
+  
 }
 .footer-col1-p2 {
   color: #cad3db;
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 25px;
+  width: 220px;
 }
 .footer-col1-img {
   border-radius: 50%;

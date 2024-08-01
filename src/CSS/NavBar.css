@@ -10,6 +10,7 @@ nav {
   font-family: Poppins;
   background-color: #001a2e;
   opacity: 0.9;
+  z-index: 30;
 
 }
 .navbar-brand {
