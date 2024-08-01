@@ -93,30 +93,30 @@
 }
 
 /*SECTION 1*/
-.slider-container {
+.section1-slider-container {
   background-color: #cad3db;
   position: relative;
   height: 100vh;
 }
-.slider {
+.section1-slider {
   overflow: hidden;
 }
-.slide {
+.section1-slide {
   opacity: 0;
   background-color: #cad3db;
   transition: 1s;
 }
-.slide.active {
+.section1-slide.section1-active {
   opacity: 1;
   border-color: #012a4a;
 }
-.ps {
+.section1-ps {
   position: absolute;
   bottom: 14%;
   left: 3%;
   transition: 1s;
 }
-.p1 {
+.section1-p1 {
   font-weight: bold;
   font-family: Merriweather;
   color: #e94e46;
@@ -124,7 +124,7 @@
   animation: 1s anim-lineUp-main ease-out, 1s fadeIn ease;
   margin-bottom: 0;
 }
-.p2 {
+.section1-p2 {
   font-family: Merriweather;
   font-weight: 100;
   width: 60%;
@@ -132,13 +132,13 @@
   color: #012a4a;
   animation: 2s anim-lineUp-main ease-out, 1s fadeIn ease;
 }
-.dots {
+.section1-dots {
   position: absolute;
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
 }
-.dot {
+.section1-dot {
   display: inline-block;
   width: 12px;
   height: 12px;
@@ -147,8 +147,8 @@
   margin: 0 10px;
   cursor: pointer;
 }
-.active,
-.dot:hover {
+.section1-active,
+.section1-dot:hover {
   border-color: #012a4a;
 }
 
@@ -275,7 +275,7 @@
 .section5-p2{
   color: #555555;
 }
-.container{
+.section5-container{
   height: 300px;
   border-radius: 7px;
   box-shadow: 0 4px 8px 0 rgb(0, 26, 46, 0.2), 0 6px 20px 0 rgb(0, 26, 46, 0.19);
@@ -355,10 +355,10 @@
 
 
 @media (min-width: 320px) and (max-width: 399px) {
-  .p1{
+  .section1-p1{
     font-size: 23px;
   }
-  .p2{
+  .section1-p2{
     font-size: 18px;
   }
   .mySwiper{
@@ -369,10 +369,10 @@
   }
 }
 @media (min-width: 400px) and (max-width:767){
-  .p1{
+  .section1-p1{
     font-size: 23px;
   }
-  .p2{
+  .section1-p2{
     font-size: 18px;
   }
   .mySwiper{
@@ -383,10 +383,10 @@
   }
 }
 @media (min-width: 768px) and (max-width: 1278px) {
-  .p1{
+  .section1-p1{
     font-size: 30px;
   }
-  .p2{
+  .section1-p2{
     font-size: 25px;
   }
   .mySwiper{
@@ -397,10 +397,10 @@
   }
 }
 @media (min-width: 1279px) {
-  .p1{
+  .section1-p1{
     font-size: 40px;
   }
-  .p2{
+  .section1-p2{
     font-size: 35px;
   }
   .mySwiper{
