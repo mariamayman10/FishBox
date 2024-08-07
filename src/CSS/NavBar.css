@@ -22,11 +22,13 @@ nav {
 }
 .nav-line a {
   position: relative;
+  text-decoration: none;
 }
 .nav-link,
 .nav-link:hover {
   color: #fff;
   cursor: pointer;
+  text-decoration: none;
 }
 .nav-line a::after {
   position: absolute;
