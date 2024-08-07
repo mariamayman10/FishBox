@@ -1,13 +1,15 @@
-
 import './App.css';
 import Home from './Components/Home/Home';
-import About from './Components/About';
+import About from './Components/About/About';
+import MyAccount from './Components/MyAccount/MyAccount';
 
 function App() {
   return (
     <>
       {/* <Home /> */}
-      <About/>
+    {/*<About/>*/}
+      <MyAccount />
+      {/* <Drawer/> */}
     </>
   );
 }
