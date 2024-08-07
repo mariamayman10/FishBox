@@ -3,7 +3,7 @@ import "../../../CSS/Home.css";
 import img1 from "../../../media/section2-img1.png"
 import img2 from "../../../media/section2-img2.png"
 import img3 from "../../../media/section2-img3.png"
-import HomeC2 from "../HomeComponents/HomeC2";
+import HomeC2 from "../HomeComp/HomeC2";
 
 const HomeS2 = () => {
   const data = [
@@ -30,9 +30,9 @@ const HomeS2 = () => {
 
   return (
     <>
-      <div className="section2 mb-4 p-lg-3 p-md-3 p-sm-2 p-1">
-        <p className="section2-title mt-5 mb-4">HOW IT WORKS?</p>
-        <div className="section2-row d-flex justify-content-center flex-wrap px-lg-5 px-md-5 px-sm-2 px-1">
+      <div className="Home__section2 mb-4 p-lg-3 p-md-3 p-sm-2 p-1">
+        <p className="Home__section2-title mt-5 mb-4">HOW IT WORKS?</p>
+        <div className="Home__section2-row d-flex justify-content-center flex-wrap px-lg-5 px-md-5 px-sm-2 px-1">
           {data.map((item, index) => (
             <HomeC2 key={index} img={item.image} p1={item.p1} p2={item.p2} extra={item.extra}/>
           ))}

@@ -50,25 +50,25 @@ const HomeS1 = () => {
   };
 
   return (
-    <div className="section1-slider-container p-0 fluid-container">
-      <div className="section1-slider">
+    <div className="Home__section1-slider-container p-0 fluid-container">
+      <div className="Home__section1-slider">
         {slideContent.map((slide, index) => (
           <div
             key={currentSlide === index ? `${index}-${Date.now()}` : index}
-            className={`section1-slide ${index === currentSlide ? "section1-active" : ""}`}
+            className={`Home__section1-slide ${index === currentSlide ? "Home__section1-active" : ""}`}
           >
-            <div className="section1-ps">
-              <p className="section1-p1">{slide.title}</p>
-              <p className="section1-p2">{slide.description}</p>
+            <div className="Home__section1-ps">
+              <p className="Home__section1-p1">{slide.title}</p>
+              <p className="Home__section1-p2">{slide.description}</p>
             </div>
           </div>
         ))}
       </div>
-      <div className="section1-dots">
+      <div className="Home__section1-dots">
         {slideContent.map((_, index) => (
           <span
             key={index}
-            className={`section1-dot ${index === currentSlide ? "section1-active" : ""}`}
+            className={`Home__section1-dot ${index === currentSlide ? "Home__section1-active" : ""}`}
             onClick={() => navigateSlide(index)}
           ></span>
         ))}

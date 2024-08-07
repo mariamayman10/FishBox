@@ -10,7 +10,7 @@ import img2 from "../../../media/section4-img2.jpeg";
 import img3 from "../../../media/section4-img3.jpeg";
 import img4 from "../../../media/section4-img4.jpeg";
 import img5 from "../../../media/section4-img5.jpeg";
-import HomeC4 from "../HomeComponents/HomeC4";
+import HomeC4 from "../HomeComp/HomeC4";
 
 const HomeS4 = () => {
   const data = [{
@@ -61,8 +61,8 @@ const HomeS4 = () => {
 
   return (
     <>
-      <div className="section4 m-auto">
-        <p className="section4-title mt-5">OUR PRODUCTS</p>
+      <div className="Home__section4 m-auto">
+        <p className="Home__section4-title mt-5">OUR PRODUCTS</p>
         <Swiper
           slidesPerView={slidesPerView}
           spaceBetween={spaceBetween}
@@ -73,7 +73,7 @@ const HomeS4 = () => {
             clickable: true,
           }}
           modules={[Pagination]}
-          className="mySwiper col-lg-8 col-md-9 col-sm-11 col-12 pb-5"
+          className="Home__mySwiper col-lg-8 col-md-9 col-sm-11 col-12 pb-5"
         >
           {
             data.map((item, index) => (

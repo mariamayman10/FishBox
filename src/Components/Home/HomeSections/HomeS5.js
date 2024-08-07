@@ -3,7 +3,7 @@ import "../../../CSS/Home.css";
 import img1 from "../../../media/offer1.png";
 import img2 from "../../../media/offer2.png";
 import img3 from "../../../media/offer3.png";
-import HomeC5 from "../HomeComponents/HomeC5";
+import HomeC5 from "../HomeComp/HomeC5";
 
 const offers = [
   {
@@ -40,8 +40,8 @@ const HomeS5 = () => {
   }, []);
 
   return (
-    <div className="section5 py-4">
-      <p className="section5-title pb-0">SPECIAL OFFERS</p>
+    <div className="Home__section5 py-4">
+      <p className="Home__section5-title pb-0">SPECIAL OFFERS</p>
       <HomeC5
         p1={offers[currentOffer].p1}
         p2={offers[currentOffer].p2}
