@@ -28,7 +28,6 @@ const MyAccount = () => {
 
   return (
     <>
-      <NavBar />
       {/* Section 1 */}
       <div className="MyAccount__section1 mb-5">
         <p className="MyAccount__section1-p1">My Account</p>
@@ -42,7 +41,6 @@ const MyAccount = () => {
       </div>
       {/* Content */}
       {renderContent()}
-      <Footer />
     </>
   );
 };

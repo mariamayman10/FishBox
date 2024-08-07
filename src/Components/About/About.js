@@ -16,7 +16,6 @@ import AboutC2 from "./AboutComponents/AboutC2";
 const About = () => {
   return (
     <>
-      <NavBar />
       <section className="about-container pb-4">
         <div className="about-content d-flex justify-content-center align-items-center">
           <div className="text-content">
@@ -107,7 +106,6 @@ const About = () => {
           />
         </div>
       </section>
-      <Footer />
     </>
   );
 };

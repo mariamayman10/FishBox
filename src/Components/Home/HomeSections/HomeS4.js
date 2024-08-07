@@ -77,8 +77,8 @@ const HomeS4 = () => {
         >
           {
             data.map((item, index) => (
-              <SwiperSlide>
-                 <HomeC4 key={index} img={item.image} p1={item.p1} p2={item.p2}/>
+              <SwiperSlide key={index}>
+                 <HomeC4 img={item.image} p1={item.p1} p2={item.p2}/>
               </SwiperSlide>
             ))
           }

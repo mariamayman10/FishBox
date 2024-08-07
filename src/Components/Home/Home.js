@@ -11,14 +11,12 @@ import HomeS6 from "./HomeSections/HomeS6";
 const Home = () => {
   return (
     <>
-      <NavBar />
       <HomeS1 />
       <HomeS2 />
       <HomeS3 />
       <HomeS4 />
       <HomeS5 />
       <HomeS6 />
-      <Footer />
     </>
   );
 };
